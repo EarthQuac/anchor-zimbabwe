@@ -2,57 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://anchorstuds.com/</loc>
+    <loc>https://zw.anchorstuds.com/</loc>
+    <lastmod>2026-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://zw.anchorstuds.com/projects.html</loc>
     <lastmod>2026-09-25</lastmod>
   </url>
-
   <url>
-    <loc>https://anchorstuds.com/projects.html</loc>
+    <loc>https://zw.anchorstuds.com/work.html</loc>
     <lastmod>2026-09-25</lastmod>
   </url>
-
   <url>
-    <loc>https://anchorstuds.com/work.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <loc>https://zw.anchorstuds.com/founder.html</loc>
+    <lastmod>2026-11-20</lastmod>
   </url>
-
   <url>
-    <loc>https://anchorstuds.com/founder.html</loc>
+    <loc>https://zw.anchorstuds.com/website.html</loc>
+    <lastmod>2026-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://zw.anchorstuds.com/inventory-system.html</loc>
+    <lastmod>2026-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://zw.anchorstuds.com/automation.html</loc>
+    <lastmod>2026-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://zw.anchorstuds.com/custom-software.html</loc>
+    <lastmod>2026-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://zw.anchorstuds.com/privacy.html</loc>
+    <lastmod>2026-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://zw.anchorstuds.com/terms.html</loc>
+    <lastmod>2026-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://zw.anchorstuds.com/auto-faq/auto-faq.html</loc>
     <lastmod>2026-09-21</lastmod>
   </url>
-
   <url>
-    <loc>https://anchorstuds.com/website.html</loc>
+    <loc>https://zw.anchorstuds.com/quote-invoice/quote-invoice.html</loc>
     <lastmod>2026-09-21</lastmod>
   </url>
-
   <url>
-    <loc>https://anchorstuds.com/inventory-system.html</loc>
-    <lastmod>2026-09-21</lastmod>
-  </url>
-
-  <url>
-    <loc>https://anchorstuds.com/automation.html</loc>
-    <lastmod>2026-09-21</lastmod>
-  </url>
-
-  <url>
-    <loc>https://anchorstuds.com/custom-software.html</loc>
-    <lastmod>2026-09-21</lastmod>
-  </url>
-
-  <url>
-    <loc>https://anchorstuds.com/auto-faq/auto-faq.html</loc>
-    <lastmod>2026-09-21</lastmod>
-  </url>
-
-  <url>
-    <loc>https://anchorstuds.com/quote-invoice/quote-invoice.html</loc>
-    <lastmod>2026-09-21</lastmod>
-  </url>
-
-  <url>
-    <loc>https://anchorstuds.com/stock-management/stock.html</loc>
+    <loc>https://zw.anchorstuds.com/stock-management/stock.html</loc>
     <lastmod>2026-09-21</lastmod>
   </url>
 
