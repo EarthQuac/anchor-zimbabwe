@@ -1,0 +1,25 @@
+{
+  "id": "/",
+  "name": "Anchor Zimbabwe",
+  "short_name": "Anchor",
+  "description": "Websites, business software and digital solutions for businesses in Zimbabwe.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0d1b35",
+  "theme_color": "#0d1b35",
+  "icons": [
+    {
+      "src": "/anchor-favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
