@@ -20,7 +20,7 @@ Plain HTML, CSS, and JavaScript. No framework or build step is required.
 
 ## Deployment
 
-Deployed through Cloudflare Pages, connected to the `main` branch of this repository. Pushes to `main` trigger a new deployment.
+Deployed through [Cloudflare Pages](https://anchor-zimbabwe-33j.pages.dev), connected to the `main` branch of this repository. Pushes to `main` trigger a new deployment.
 
 ## Run locally
 
