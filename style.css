@@ -15,6 +15,12 @@
 @media (max-width:640px){.other-services-grid{grid-template-columns:1fr}.other-service-tile{min-height:128px}}
 .service-learn-more{color:var(--blue);display:inline-block;font-size:.85rem;font-weight:700;margin-top:auto;padding-top:14px;text-decoration:none}
 .service-learn-more:hover{color:var(--blue-dark)}
+/* Keep the nested Learn more label blue regardless of the parent card link state. */
+.other-services-grid a.other-service-tile .service-learn-more,
+.other-services-grid a.other-service-tile:link .service-learn-more,
+.other-services-grid a.other-service-tile:visited .service-learn-more,
+.other-services-grid a.other-service-tile:active .service-learn-more{color:var(--blue);-webkit-text-fill-color:var(--blue)}
+.other-services-grid a.other-service-tile:hover .service-learn-more{color:var(--blue-dark);-webkit-text-fill-color:var(--blue-dark)}
 .service-price strong{color:var(--blue);display:block;font-family:Manrope,sans-serif;font-size:1.1rem;letter-spacing:-.03em}
 .service-price small{color:var(--muted);display:block;font-size:.76rem;line-height:1.5;margin-top:4px}
 .service-pilot{background:#eaf1ff;border-radius:999px;color:var(--blue);display:inline-block;font-size:.74rem;font-weight:700;margin-top:10px;padding:5px 11px}
