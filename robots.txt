@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://anchorstuds.com/sitemap.xml
+Sitemap: https://zw.anchorstuds.com/sitemap.xml
