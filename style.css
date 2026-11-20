@@ -380,7 +380,7 @@
   padding-bottom: 90px;
 }
 #locations .locations-heading {
-  margin-bottom: 34px;
+  margin-bottom: 30px;
   max-width: 760px;
 }
 #locations .locations-heading > p:last-child {
@@ -389,48 +389,29 @@
   margin-top: 16px;
   max-width: 680px;
 }
-#locations .locations-grid {
+#locations .locations-list {
   display: grid;
-  gap: 14px;
+  gap: 16px 42px;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-#locations .location-region {
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 13px;
-  min-height: 132px;
-  padding: 20px 22px;
-  transition: border-color .22s ease, box-shadow .22s ease, transform .22s ease;
-}
-#locations .location-region:hover {
-  border-color: #c5d6fb;
-  box-shadow: 0 12px 26px rgba(20, 49, 99, .08);
-  transform: translateY(-3px);
-}
-#locations .location-region h3 {
-  color: var(--ink);
-  font-family: Manrope, sans-serif;
-  font-size: .96rem;
-  letter-spacing: -.025em;
-  margin-bottom: 12px;
-}
-#locations .location-region ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 9px 17px;
   list-style: none;
+  margin: 0;
+  max-width: 900px;
+  padding: 0;
 }
-#locations .location-region li {
+#locations .locations-list li {
   align-items: center;
-  color: var(--muted);
-  display: inline-flex;
-  font-size: .88rem;
-  gap: 8px;
+  color: var(--ink);
+  display: flex;
+  font-size: .98rem;
+  font-weight: 600;
+  gap: 12px;
+  min-height: 28px;
 }
-#locations .location-point {
+#locations .locations-list li::before {
   background: var(--blue);
   border: 3px solid #dce8ff;
   border-radius: 50%;
+  content: "";
   display: inline-block;
   flex: 0 0 12px;
   height: 12px;
@@ -439,10 +420,10 @@
 #locations .locations-note {
   color: var(--muted);
   font-size: .9rem;
-  margin-top: 22px;
+  margin-top: 24px;
 }
 @media (max-width: 900px) {
-  #locations .locations-grid {
+  #locations .locations-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -450,12 +431,12 @@
   #locations.locations-section {
     padding-bottom: 65px;
   }
-  #locations .locations-grid {
-    gap: 10px;
-    grid-template-columns: 1fr;
+  #locations .locations-list {
+    gap: 14px 24px;
+    grid-template-columns: 1fr 1fr;
   }
-  #locations .location-region {
-    min-height: 0;
-    padding: 17px 18px;
+  #locations .locations-list li {
+    font-size: .9rem;
+    gap: 9px;
   }
 }
