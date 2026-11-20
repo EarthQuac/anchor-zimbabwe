@@ -6,12 +6,15 @@
 #projects li a::after{color:var(--blue);content:"\2192";font-weight:700;margin-left:12px}
 #services .other-services{grid-column:1/-1;margin-top:6px}
 .other-services-heading{color:var(--muted);font-size:.72rem;font-weight:700;letter-spacing:.1em;margin-bottom:14px;text-transform:uppercase}
-.other-services-grid{display:grid;gap:12px;grid-template-columns:repeat(3,1fr)}
-.other-service-tile{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:border-color .25s ease,box-shadow .25s ease,transform .25s ease}
+.other-services-grid{align-items:stretch;display:grid;gap:12px;grid-template-columns:repeat(3,minmax(0,1fr))}
+.other-service-tile{align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:12px;box-sizing:border-box;display:flex;flex-direction:column;min-height:140px;padding:16px;transition:border-color .25s ease,box-shadow .25s ease,transform .25s ease;width:100%}
 .other-service-tile:hover{border-color:#cad9fb;box-shadow:0 10px 22px rgba(20,49,99,.08);transform:translateY(-3px)}
-.other-service-tile span{color:var(--ink);display:block;font-size:.86rem;font-weight:600;margin-bottom:6px}
+.other-service-tile>span:not(.service-learn-more){color:var(--ink);display:block;font-size:.86rem;font-weight:600;line-height:1.4;margin-bottom:8px;min-height:2.4em}
 .other-service-tile strong{color:var(--blue);font-family:Manrope,sans-serif;font-size:1rem;letter-spacing:-.02em}
-@media (max-width:1060px){.other-services-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:1060px){.other-services-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.other-services-grid{grid-template-columns:1fr}.other-service-tile{min-height:128px}}
+.service-learn-more{color:var(--blue);display:inline-block;font-size:.85rem;font-weight:700;margin-top:auto;padding-top:14px;text-decoration:none}
+.service-learn-more:hover{color:var(--blue-dark)}
 .service-price strong{color:var(--blue);display:block;font-family:Manrope,sans-serif;font-size:1.1rem;letter-spacing:-.03em}
 .service-price small{color:var(--muted);display:block;font-size:.76rem;line-height:1.5;margin-top:4px}
 .service-pilot{background:#eaf1ff;border-radius:999px;color:var(--blue);display:inline-block;font-size:.74rem;font-weight:700;margin-top:10px;padding:5px 11px}
