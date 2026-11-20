@@ -1,34 +1,34 @@
-# Anchor
+# Anchor Zimbabwe
 
 **Technology that moves your business forward.**
 
-So this is Anchor — my digital solutions studio. I build websites, custom software, and automation tools for businesses that need to ditch the manual spreadsheets and notebooks. This repo has the main site plus a few prototype tools I've been building out.
-
-🔗 **Live site:** [anchorstuds.com](https://anchorstuds.com)
+Anchor Zimbabwe is the Zimbabwe-focused version of Anchor, a digital solutions studio building websites, custom software, and automation tools for businesses.
 
 ## What's here
 
 | Page | What it does |
 |---|---|
-| `index.html` | The main site — services, pricing, contact form |
-| `projects.html` | Some of the stuff I've built |
+| `index.html` | Main site — services, pricing, and contact form |
+| `projects.html` | Selected projects |
 | `stock-management/` | Inventory tracking prototype |
-| `quote-invoice/` | Quote & invoice generator prototype |
+| `quote-invoice/` | Quote and invoice generator prototype |
 | `auto-faq/` | Auto-FAQ / price bot prototype |
 
 ## Built with
 
-Just plain HTML, CSS, and JS. No framework, no build step — keeps things simple and fast.
-The code is Obfuscated and Minificated.
+Plain HTML, CSS, and JavaScript. No framework or build step is required.
 
 ## Deployment
-Auto-deploys every time I push to `main`.
 
-## Want to run it yourself?
+Deployed through Cloudflare Pages, connected to the `main` branch of this repository. Pushes to `main` trigger a new deployment.
 
+## Run locally
+
+Clone this repository:
+
+```bash
+git clone https://github.com/EarthQuac/anchor-zimbabwe.git
+cd anchor-zimbabwe
 ```
-git clone https://github.com/EarthQuaqq/Anchor.git
-cd Anchor
-```
 
-Then just open `index.html` in your browser. That's it — no npm install, no config, nothing to break.
+Open `index.html` in your browser. No package installation or build command is required.
