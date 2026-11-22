@@ -9,6 +9,7 @@ Anchor Zimbabwe is the Zimbabwe-focused version of Anchor, a digital solutions s
 | Page | What it does |
 |---|---|
 | `index.html` | Main site , services, pricing, and contact form |
+| `payments.html` | EcoCash payment instructions for Zimbabwean clients |
 | `projects.html` | Selected projects |
 | `stock-management/` | Inventory tracking prototype |
 | `quote-invoice/` | Quote and invoice generator prototype |
