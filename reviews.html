@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d1b35">
+  <title>Customer Reviews | Anchor Zimbabwe</title>
+  <meta name="description" content="Read customer feedback and share your experience working with Anchor Zimbabwe.">
+  <link rel="canonical" href="https://zw.anchorstuds.com/reviews.html">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/reviews.css">
+</head>
+<body class="reviews-page">
+<header class="site-header"><nav class="site-nav">
+  <a href="/" class="brand" aria-label="Anchor home"><span class="logo-text">Anchor</span></a>
+  <a href="/" class="reviews-back">Back to website</a>
+</nav></header>
+<main>
+  <section class="reviews-hero">
+    <p class="section-label">CUSTOMER EXPERIENCES</p>
+    <h1>Real experiences.<br><span>Honest feedback.</span></h1>
+    <p>Have you worked with Anchor? Share your experience and help others understand what it's like to work with us.</p>
+  </section>
+  <section class="reviews-layout">
+    <div class="review-form-panel">
+      <p class="section-label">YOUR EXPERIENCE</p>
+      <h2>Leave a review</h2>
+      <p class="review-form-intro">Tell us what went well, what we helped you with, or what the experience was like.</p>
+      <form id="review-form">
+        <label for="review-name">Display name</label>
+        <input id="review-name" name="displayName" maxlength="40" minlength="2" placeholder="How should we identify you?" required>
+        <fieldset class="avatar-field">
+          <legend>Choose a profile icon</legend>
+          <div class="avatar-options" role="radiogroup" aria-label="Profile icon">
+            <label><input type="radio" name="avatar" value="anchor" checked><span title="Anchor">⚓</span></label>
+            <label><input type="radio" name="avatar" value="user"><span title="Person">👤</span></label>
+            <label><input type="radio" name="avatar" value="briefcase"><span title="Business">💼</span></label>
+            <label><input type="radio" name="avatar" value="code"><span title="Developer">⌨</span></label>
+            <label><input type="radio" name="avatar" value="laptop"><span title="Technology">💻</span></label>
+            <label><input type="radio" name="avatar" value="globe"><span title="Global">🌐</span></label>
+            <label><input type="radio" name="avatar" value="star"><span title="Star">★</span></label>
+            <label><input type="radio" name="avatar" value="rocket"><span title="Rocket">🚀</span></label>
+            <label><input type="radio" name="avatar" value="palette"><span title="Creative">🎨</span></label>
+            <label><input type="radio" name="avatar" value="building"><span title="Company">🏢</span></label>
+          </div>
+        </fieldset>
+        <fieldset class="rating-field">
+          <legend>Your rating</legend>
+          <div class="rating-options" role="radiogroup" aria-label="Star rating">
+            <label><input type="radio" name="rating" value="1" required><span>★</span></label>
+            <label><input type="radio" name="rating" value="2"><span>★</span></label>
+            <label><input type="radio" name="rating" value="3"><span>★</span></label>
+            <label><input type="radio" name="rating" value="4"><span>★</span></label>
+            <label><input type="radio" name="rating" value="5"><span>★</span></label>
+          </div>
+        </fieldset>
+        <label for="review-text">Your review</label>
+        <textarea id="review-text" name="review" rows="6" minlength="15" maxlength="1200" placeholder="Tell us about your experience..." required></textarea>
+        <div class="review-form-meta"><span>15–1,200 characters</span><span id="review-count">0 / 1,200</span></div>
+        <button id="review-submit" type="submit">Submit review</button>
+        <p id="review-status" class="review-status" role="status" aria-live="polite"></p>
+        <p class="review-disclaimer">Reviews are checked before appearing publicly. Please don't include private contact or account information.</p>
+      </form>
+    </div>
+    <aside class="reviews-side-note">
+      <div class="reviews-side-mark">A</div>
+      <h2>Your feedback helps us build better.</h2>
+      <p>Every project is a collaboration. Your perspective helps future clients make informed decisions and helps us keep improving.</p>
+      <a href="/#contact" class="service-learn-more">Discuss a project →</a>
+    </aside>
+  </section>
+</main>
+<footer class="footer"><div class="footer-bottom"><p>© 2026 Anchor. All rights reserved.</p><p>Designed and built with care by Anchor.</p></div></footer>
+<script src="/reviews.js" defer></script>
+</body></html>
